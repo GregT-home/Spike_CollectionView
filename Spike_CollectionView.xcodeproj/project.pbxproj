@@ -19,6 +19,8 @@
 		5E9D6075189C25DF00D81F56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9D605D189C25DF00D81F56 /* UIKit.framework */; };
 		5E9D607D189C25DF00D81F56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E9D607B189C25DF00D81F56 /* InfoPlist.strings */; };
 		5E9D607F189C25DF00D81F56 /* Spike_CollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D607E189C25DF00D81F56 /* Spike_CollectionViewTests.m */; };
+		5E9D608A189C286B00D81F56 /* DemoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6089189C286B00D81F56 /* DemoCollectionViewController.m */; };
+		5E9D608D189D6A7800D81F56 /* FishDisplayCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D608C189D6A7800D81F56 /* FishDisplayCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		5E9D607A189C25DF00D81F56 /* Spike_CollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spike_CollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		5E9D607C189C25DF00D81F56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E9D607E189C25DF00D81F56 /* Spike_CollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spike_CollectionViewTests.m; sourceTree = "<group>"; };
+		5E9D6088189C286B00D81F56 /* DemoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewController.h; sourceTree = "<group>"; };
+		5E9D6089189C286B00D81F56 /* DemoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewController.m; sourceTree = "<group>"; };
+		5E9D608B189D6A7800D81F56 /* FishDisplayCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishDisplayCard.h; sourceTree = "<group>"; };
+		5E9D608C189D6A7800D81F56 /* FishDisplayCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishDisplayCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				5E9D6068189C25DF00D81F56 /* GLTAppDelegate.h */,
 				5E9D6069189C25DF00D81F56 /* GLTAppDelegate.m */,
+				5E9D6088189C286B00D81F56 /* DemoCollectionViewController.h */,
+				5E9D6089189C286B00D81F56 /* DemoCollectionViewController.m */,
+				5E9D608B189D6A7800D81F56 /* FishDisplayCard.h */,
+				5E9D608C189D6A7800D81F56 /* FishDisplayCard.m */,
 				5E9D606B189C25DF00D81F56 /* Images.xcassets */,
 				5E9D6060189C25DF00D81F56 /* Supporting Files */,
 			);
@@ -242,6 +252,8 @@
 			files = (
 				5E9D606A189C25DF00D81F56 /* GLTAppDelegate.m in Sources */,
 				5E9D6066189C25DF00D81F56 /* main.m in Sources */,
+				5E9D608D189D6A7800D81F56 /* FishDisplayCard.m in Sources */,
+				5E9D608A189C286B00D81F56 /* DemoCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
