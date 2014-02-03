@@ -19,8 +19,15 @@
 		5E9D6075189C25DF00D81F56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9D605D189C25DF00D81F56 /* UIKit.framework */; };
 		5E9D607D189C25DF00D81F56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E9D607B189C25DF00D81F56 /* InfoPlist.strings */; };
 		5E9D607F189C25DF00D81F56 /* Spike_CollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D607E189C25DF00D81F56 /* Spike_CollectionViewTests.m */; };
-		5E9D608A189C286B00D81F56 /* DemoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6089189C286B00D81F56 /* DemoCollectionViewController.m */; };
+		5E9D608A189C286B00D81F56 /* HandCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6089189C286B00D81F56 /* HandCollectionViewController.m */; };
 		5E9D608D189D6A7800D81F56 /* FishDisplayCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D608C189D6A7800D81F56 /* FishDisplayCard.m */; };
+		5E9D6099189DA4AB00D81F56 /* FishCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6090189DA4AB00D81F56 /* FishCard.m */; };
+		5E9D609A189DA4AB00D81F56 /* FishDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6092189DA4AB00D81F56 /* FishDeck.m */; };
+		5E9D609B189DA4AB00D81F56 /* FishHand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6094189DA4AB00D81F56 /* FishHand.m */; };
+		5E9D609C189DA4AB00D81F56 /* GoFish_ModelTests.m.save in Resources */ = {isa = PBXBuildFile; fileRef = 5E9D6095189DA4AB00D81F56 /* GoFish_ModelTests.m.save */; };
+		5E9D609D189DA4AB00D81F56 /* GoFishModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D6098189DA4AB00D81F56 /* GoFishModel.m */; };
+		5E9D60A0189FDEFE00D81F56 /* SmileyFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D609F189FDEFE00D81F56 /* SmileyFaceViewController.m */; };
+		5E9D60A3189FDF2F00D81F56 /* SmileyFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9D60A2189FDF2F00D81F56 /* SmileyFaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +57,24 @@
 		5E9D607A189C25DF00D81F56 /* Spike_CollectionViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spike_CollectionViewTests-Info.plist"; sourceTree = "<group>"; };
 		5E9D607C189C25DF00D81F56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E9D607E189C25DF00D81F56 /* Spike_CollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spike_CollectionViewTests.m; sourceTree = "<group>"; };
-		5E9D6088189C286B00D81F56 /* DemoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCollectionViewController.h; sourceTree = "<group>"; };
-		5E9D6089189C286B00D81F56 /* DemoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionViewController.m; sourceTree = "<group>"; };
+		5E9D6088189C286B00D81F56 /* HandCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandCollectionViewController.h; sourceTree = "<group>"; };
+		5E9D6089189C286B00D81F56 /* HandCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandCollectionViewController.m; sourceTree = "<group>"; };
 		5E9D608B189D6A7800D81F56 /* FishDisplayCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishDisplayCard.h; sourceTree = "<group>"; };
 		5E9D608C189D6A7800D81F56 /* FishDisplayCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishDisplayCard.m; sourceTree = "<group>"; };
+		5E9D608F189DA4AB00D81F56 /* FishCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishCard.h; sourceTree = "<group>"; };
+		5E9D6090189DA4AB00D81F56 /* FishCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishCard.m; sourceTree = "<group>"; };
+		5E9D6091189DA4AB00D81F56 /* FishDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishDeck.h; sourceTree = "<group>"; };
+		5E9D6092189DA4AB00D81F56 /* FishDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishDeck.m; sourceTree = "<group>"; };
+		5E9D6093189DA4AB00D81F56 /* FishHand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishHand.h; sourceTree = "<group>"; };
+		5E9D6094189DA4AB00D81F56 /* FishHand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishHand.m; sourceTree = "<group>"; };
+		5E9D6095189DA4AB00D81F56 /* GoFish_ModelTests.m.save */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GoFish_ModelTests.m.save; sourceTree = "<group>"; };
+		5E9D6096189DA4AB00D81F56 /* GoFishModel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GoFishModel-Prefix.pch"; sourceTree = "<group>"; };
+		5E9D6097189DA4AB00D81F56 /* GoFishModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoFishModel.h; sourceTree = "<group>"; };
+		5E9D6098189DA4AB00D81F56 /* GoFishModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoFishModel.m; sourceTree = "<group>"; };
+		5E9D609E189FDEFE00D81F56 /* SmileyFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmileyFaceViewController.h; path = ../../OC_gofish/GoFishModel/SmileyFaceViewController.h; sourceTree = "<group>"; };
+		5E9D609F189FDEFE00D81F56 /* SmileyFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmileyFaceViewController.m; path = ../../OC_gofish/GoFishModel/SmileyFaceViewController.m; sourceTree = "<group>"; };
+		5E9D60A1189FDF2F00D81F56 /* SmileyFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmileyFaceView.h; path = ../../OC_gofish/GoFishModel/SmileyFaceView.h; sourceTree = "<group>"; };
+		5E9D60A2189FDF2F00D81F56 /* SmileyFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmileyFaceView.m; path = ../../OC_gofish/GoFishModel/SmileyFaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +101,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E52F63A18A02EC6005A9F6B /* SmileyFace */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D60A2189FDF2F00D81F56 /* SmileyFaceView.m */,
+				5E9D60A1189FDF2F00D81F56 /* SmileyFaceView.h */,
+				5E9D609E189FDEFE00D81F56 /* SmileyFaceViewController.h */,
+				5E9D609F189FDEFE00D81F56 /* SmileyFaceViewController.m */,
+			);
+			name = SmileyFace;
+			sourceTree = "<group>";
+		};
 		5E9D604D189C25DF00D81F56 = {
 			isa = PBXGroup;
 			children = (
@@ -113,10 +145,12 @@
 		5E9D605F189C25DF00D81F56 /* Spike_CollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				5E9D608E189DA4AB00D81F56 /* GoFishModel */,
 				5E9D6068189C25DF00D81F56 /* GLTAppDelegate.h */,
 				5E9D6069189C25DF00D81F56 /* GLTAppDelegate.m */,
-				5E9D6088189C286B00D81F56 /* DemoCollectionViewController.h */,
-				5E9D6089189C286B00D81F56 /* DemoCollectionViewController.m */,
+				5E9D6088189C286B00D81F56 /* HandCollectionViewController.h */,
+				5E9D6089189C286B00D81F56 /* HandCollectionViewController.m */,
+				5E52F63A18A02EC6005A9F6B /* SmileyFace */,
 				5E9D608B189D6A7800D81F56 /* FishDisplayCard.h */,
 				5E9D608C189D6A7800D81F56 /* FishDisplayCard.m */,
 				5E9D606B189C25DF00D81F56 /* Images.xcassets */,
@@ -152,6 +186,24 @@
 				5E9D607B189C25DF00D81F56 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E9D608E189DA4AB00D81F56 /* GoFishModel */ = {
+			isa = PBXGroup;
+			children = (
+				5E9D608F189DA4AB00D81F56 /* FishCard.h */,
+				5E9D6090189DA4AB00D81F56 /* FishCard.m */,
+				5E9D6091189DA4AB00D81F56 /* FishDeck.h */,
+				5E9D6092189DA4AB00D81F56 /* FishDeck.m */,
+				5E9D6093189DA4AB00D81F56 /* FishHand.h */,
+				5E9D6094189DA4AB00D81F56 /* FishHand.m */,
+				5E9D6095189DA4AB00D81F56 /* GoFish_ModelTests.m.save */,
+				5E9D6096189DA4AB00D81F56 /* GoFishModel-Prefix.pch */,
+				5E9D6097189DA4AB00D81F56 /* GoFishModel.h */,
+				5E9D6098189DA4AB00D81F56 /* GoFishModel.m */,
+			);
+			name = GoFishModel;
+			path = ../../OC_gofish/GoFishModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E9D6064189C25DF00D81F56 /* InfoPlist.strings in Resources */,
+				5E9D609C189DA4AB00D81F56 /* GoFish_ModelTests.m.save in Resources */,
 				5E9D606C189C25DF00D81F56 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,10 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9D6099189DA4AB00D81F56 /* FishCard.m in Sources */,
+				5E9D60A3189FDF2F00D81F56 /* SmileyFaceView.m in Sources */,
+				5E9D60A0189FDEFE00D81F56 /* SmileyFaceViewController.m in Sources */,
+				5E9D609D189DA4AB00D81F56 /* GoFishModel.m in Sources */,
 				5E9D606A189C25DF00D81F56 /* GLTAppDelegate.m in Sources */,
+				5E9D609B189DA4AB00D81F56 /* FishHand.m in Sources */,
+				5E9D609A189DA4AB00D81F56 /* FishDeck.m in Sources */,
 				5E9D6066189C25DF00D81F56 /* main.m in Sources */,
 				5E9D608D189D6A7800D81F56 /* FishDisplayCard.m in Sources */,
-				5E9D608A189C286B00D81F56 /* DemoCollectionViewController.m in Sources */,
+				5E9D608A189C286B00D81F56 /* HandCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +515,7 @@
 				5E9D6084189C25DF00D81F56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5E9D6085189C25DF00D81F56 /* Build configuration list for PBXNativeTarget "Spike_CollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +524,7 @@
 				5E9D6087189C25DF00D81F56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

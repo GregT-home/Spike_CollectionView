@@ -7,7 +7,8 @@
 //
 
 #import "GLTAppDelegate.h"
-#import "DemoCollectionViewController.h"
+#import "HandCollectionViewController.h"
+#import "SmileyFaceViewController.h"
 
 
 @implementation GLTAppDelegate
@@ -16,7 +17,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.rootViewController = [DemoCollectionViewController new];
+    self.window.rootViewController = [HandCollectionViewController new];
+    //Smiley Face Class experiment
+    //    self.window.rootViewController = [customViewController new];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

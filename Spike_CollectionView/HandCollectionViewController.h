@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DemoCollectionViewController : UIViewController <UICollectionViewDataSource>
+@interface HandCollectionViewController : UIViewController <UICollectionViewDataSource>
 
 @end

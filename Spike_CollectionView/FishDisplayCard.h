@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GoFishModel.h"
 
 @interface FishDisplayCard : UICollectionViewCell
 
-@property (nonatomic, strong) UIImageView *cardImage;
+@property (nonatomic, strong) UIImageView *cardImageView;
+@property (nonatomic, strong) FishCard *card;
 
 @end

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EF125547-3DD3-441F-B363-66374586BB7E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Spike_CollectionView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B0F24AB6-2D69-455F-B59F-E38F576EB7AF</key>
+		<string>https://github.com/gltarsa/OC_GoFish.git</string>
+		<key>CDC528B7-3443-4A60-A84C-15D415FBEC40</key>
+		<string>https://github.com/gltarsa/Spike_CollectionView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Spike_CollectionView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B0F24AB6-2D69-455F-B59F-E38F576EB7AF</key>
+		<string>../../../OC_gofish</string>
+		<key>CDC528B7-3443-4A60-A84C-15D415FBEC40</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gltarsa/Spike_CollectionView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CDC528B7-3443-4A60-A84C-15D415FBEC40</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B0F24AB6-2D69-455F-B59F-E38F576EB7AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OC_gofish</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CDC528B7-3443-4A60-A84C-15D415FBEC40</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Spike_CollectionView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
